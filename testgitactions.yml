@@ -1,8 +1,19 @@
-name: hello-world
+# name: hello-world
+# on: push
+# jobs:
+#   my-job:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: my-step
+#         run: echo "Hello World!"
+
+name: example
+
 on: push
+
 jobs:
-  my-job:
+  job_1:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+      - name: My first step
+        run: echo This is the first step of my first job.
